@@ -35,12 +35,12 @@ func (c *ZipSlipVuln1Controller) Post() {
 	for _, f := range r.File {
 		fpath := filepath.Join(unzipPath, f.Name)
 		if f.FileInfo().IsDir() {
-			// Make Folder
+			//Make Folder
 			os.MkdirAll(fpath, os.ModePerm)
 			continue
 		}
 
-		// Make File
+		//Make File
 		if err = os.MkdirAll(filepath.Dir(fpath), os.ModePerm); err != nil {
 			panic(err)
 		}
@@ -57,7 +57,7 @@ func (c *ZipSlipVuln1Controller) Post() {
 
 		_, err = io.Copy(outFile, rc)
 
-		// Close the file without defer to close before next iteration of loop
+		//Close the file without defer to close before next iteration of loop
 		outFile.Close()
 		rc.Close()
 

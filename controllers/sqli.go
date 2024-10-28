@@ -4,12 +4,11 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go-sec-code/models"
-
 	sq "github.com/Masterminds/squirrel"
 	"github.com/beego/beego/v2/client/orm"
 	beego "github.com/beego/beego/v2/server/web"
 	_ "github.com/go-sql-driver/mysql"
+	"go-sec-code/models"
 	"xorm.io/xorm"
 )
 
