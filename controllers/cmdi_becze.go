@@ -1,12 +1,23 @@
-//
+//Analyzer1 original results: [77]
+//Analyzer2 original results: [77]
+//Analyzer3 original results: []
+//Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
-//
+//Analyzer3 analysis results: [94]
+//Analyzer4 analysis results: []
+//Analyzer1 analysis results: [78, 703]
+//Analyzer2 analysis results: [78]
+//Analyzer5 analysis results: []
 //Original file name: controllers/cmdi.go
 //Original file CWE's: [77]  
 //Original file kind: fail
 //Mutation info: Insert template from templates-db/languages/go/sensitivity/concurrency/concurrency.tmt with name two_set_threads_in_sequence_negative 
 //Used extensions: 
-//Program:
+//Original file region: 27, 36, null, null
+//Mutated file region: 46, 77, null, null
+
+
 package controllers
 
 import (

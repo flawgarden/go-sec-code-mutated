@@ -1,20 +1,22 @@
-//Analyzer5 original results: [77]
 //Analyzer1 original results: [77]
+//Analyzer2 original results: [77]
 //Analyzer3 original results: []
-//Analyzer2 original results: []
 //Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
-//Analyzer3 analysis results: []
-//Analyzer2 analysis results: [94]
+//Analyzer3 analysis results: [94]
 //Analyzer4 analysis results: []
-//Analyzer5 analysis results: [78, 703]
-//Analyzer1 analysis results: [563]
+//Analyzer1 analysis results: [78, 703]
+//Analyzer2 analysis results: [563]
+//Analyzer5 analysis results: []
 //Original file name: controllers/cmdi.go
 //Original file CWE's: [77]  
 //Original file kind: fail
 //Mutation info: Insert template from templates-db/languages/go/sensitivity/collections/set.tmt with name set_add_simple_negative 
-//Used extensions: MACRO_Create_Set -> ~[MACRO_SetName]~ := make(map[~[TYPE@1]~]struct{}) | MACRO_Add_Fixed_CONST_ToSet -> ~[MACRO_SetName]~[~[CONST_~[TYPE@1]~@1]~] = struct{}{} | MACRO_SetName -> set787231 | MACRO_SetName -> set787231 | MACRO_SetName -> set787231
-//Program:
+//Used extensions: 
+//Original file region: 27, 36, null, null
+//Mutated file region: 46, 65, null, null
+
 package controllers
 
 import (

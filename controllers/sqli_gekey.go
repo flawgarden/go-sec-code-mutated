@@ -1,18 +1,22 @@
-//Analyzer2 original results: [89]
-//Analyzer5 original results: [89]
+//Analyzer3 original results: [89]
 //Analyzer1 original results: [89]
-//Analyzer3 original results: []
+//Analyzer2 original results: [89]
+//Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
-//Analyzer3 analysis results: []
-//Analyzer2 analysis results: [89]
-//Analyzer5 analysis results: [89, 703]
-//Analyzer1 analysis results: [570, 571, 563]
+//Analyzer3 analysis results: [89]
+//Analyzer4 analysis results: []
+//Analyzer1 analysis results: [89, 703]
+//Analyzer2 analysis results: [570, 571, 563]
+//Analyzer5 analysis results: []
 //Original file name: controllers/sqli.go
-//Original file CWE's: [89]
+//Original file CWE's: [89]  
 //Original file kind: fail
-//Mutation info: Insert template from templates-db/languages/go/sensitivity/conditional/conditionswitch.tmt with name switch_fallthrough_negative
-//Used extensions:
-//Program:
+//Mutation info: Insert template from templates-db/languages/go/sensitivity/conditional/conditionswitch.tmt with name switch_fallthrough_negative 
+//Used extensions: 
+//Original file region: 52, 74, null, null
+//Mutated file region: 67, 103, null, null
+
 package controllers
 
 import (

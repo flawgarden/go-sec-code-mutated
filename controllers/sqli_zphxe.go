@@ -1,20 +1,22 @@
-// Semgrep original results: [89]
-// Gosec original results: [89]
-// CodeQL original results: [89]
-// Snyk original results: []
-// Bearer original results: []
-// -------------
-// Snyk analysis results: []
-// Semgrep analysis results: [89]
-// Bearer analysis results: []
-// Gosec analysis results: [89, 703]
-// CodeQL analysis results: [563]
-// Original file name: controllers/sqli.go
-// Original file CWE's: [89]
-// Original file kind: fail
-// Mutation info: Insert template from templates-db/languages/go/sensitivity/assignment.tmt with name assignment_negative
-// Used extensions:
-// Program:
+//Analyzer3 original results: [89]
+//Analyzer1 original results: [89]
+//Analyzer2 original results: [89]
+//Analyzer4 original results: []
+//Analyzer5 original results: []
+//-------------
+//Analyzer3 analysis results: [89]
+//Analyzer4 analysis results: []
+//Analyzer1 analysis results: [89, 703]
+//Analyzer2 analysis results: [563]
+//Analyzer5 analysis results: []
+//Original file name: controllers/sqli.go
+//Original file CWE's: [89]  
+//Original file kind: fail
+//Mutation info: Insert template from templates-db/languages/go/sensitivity/assignment.tmt with name assignment_negative 
+//Used extensions: 
+//Original file region: 76, 98, null, null
+//Mutated file region: 93, 119, null, null
+
 package controllers
 
 import (

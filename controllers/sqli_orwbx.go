@@ -1,11 +1,23 @@
-// -------------
-//
-// Original file name: controllers/sqli.go
-// Original file CWE's: [89]
-// Original file kind: fail
-// Mutation info: Insert template from templates-db/languages/go/sensitivity/collections/list.tmt with name list_filter_neutral
-// Used extensions:
-// Program:
+//Analyzer3 original results: [89]
+//Analyzer1 original results: [89]
+//Analyzer2 original results: [89]
+//Analyzer4 original results: []
+//Analyzer5 original results: []
+//-------------
+//Analyzer3 analysis results: [89]
+//Analyzer4 analysis results: []
+//Analyzer1 analysis results: [89, 703]
+//Analyzer2 analysis results: [89]
+//Analyzer5 analysis results: []
+//Original file name: controllers/sqli.go
+//Original file CWE's: [89]  
+//Original file kind: fail
+//Mutation info: Insert template from templates-db/languages/go/sensitivity/collections/list.tmt with name list_filter_neutral 
+//Used extensions: 
+//Original file region: 76, 98, null, null
+//Mutated file region: 93, 127, null, null
+
+
 package controllers
 
 import (
@@ -57,7 +69,6 @@ type SqlInjectionSafe3ControllerOrwbx struct {
 
 func (c *SqlInjectionVuln1ControllerOrwbx) Get() {
 	id := c.GetString("id")
-
 	db, err := sql.Open("mysql", source)
 	if err != nil {
 		panic(err)

@@ -1,11 +1,22 @@
-// -------------
-//
-// Original file name: controllers/sqli.go
-// Original file CWE's: [89]
-// Original file kind: fail
-// Mutation info: Insert template from templates-db/languages/go/sensitivity/collections/queue.tmt with name queue_is_empty_1_negative
-// Used extensions:
-// Program:
+//Analyzer3 original results: [89]
+//Analyzer1 original results: [89]
+//Analyzer2 original results: [89]
+//Analyzer4 original results: []
+//Analyzer5 original results: []
+//-------------
+//Analyzer3 analysis results: [89]
+//Analyzer4 analysis results: []
+//Analyzer1 analysis results: [89, 703]
+//Analyzer2 analysis results: [89]
+//Analyzer5 analysis results: []
+//Original file name: controllers/sqli.go
+//Original file CWE's: [89]
+//Original file kind: fail
+//Mutation info: Insert template from templates-db/languages/go/sensitivity/collections/queue.tmt with name queue_is_empty_1_negative
+//Used extensions:
+//Original file region: 52, 74, null, null
+//Mutated file region: 69, 101, null, null
+
 package controllers
 
 import (
@@ -62,8 +73,8 @@ func (c *SqlInjectionVuln1ControllerOufyb) Get() {
 	queue787231.PushBack(id)
 	value7843 := "zERiF"
 	if queue787231.Len() > 0 {
-		value7843 = queue787231.Front().Value.(string)
 		queue787231.Remove(queue787231.Front())
+		value7843 = queue787231.Front().Value.(string)
 	}
 	id = value7843
 

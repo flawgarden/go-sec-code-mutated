@@ -1,20 +1,22 @@
-//Analyzer5 original results: [77]
 //Analyzer1 original results: [77]
+//Analyzer2 original results: [77]
 //Analyzer3 original results: []
-//Analyzer2 original results: []
 //Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
 //Analyzer3 analysis results: []
-//Analyzer2 analysis results: []
 //Analyzer4 analysis results: []
-//Analyzer5 analysis results: [78, 703]
-//Analyzer1 analysis results: []
+//Analyzer1 analysis results: [78, 703]
+//Analyzer2 analysis results: []
+//Analyzer5 analysis results: []
 //Original file name: controllers/cmdi.go
 //Original file CWE's: [77]  
 //Original file kind: fail
 //Mutation info: Insert template from templates-db/languages/go/sensitivity/virtuality/interface.tmt with name impl_binary_op_interface_class2_negative 
 //Used extensions: 
-//Program:
+//Original file region: 49, 56, null, null
+//Mutated file region: 68, 79, null, null
+
 package controllers
 
 import (

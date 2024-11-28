@@ -1,20 +1,22 @@
-//Analyzer5 original results: [22]
 //Analyzer1 original results: [22]
+//Analyzer2 original results: [22]
 //Analyzer3 original results: []
-//Analyzer2 original results: []
 //Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
 //Analyzer3 analysis results: []
-//Analyzer2 analysis results: []
 //Analyzer4 analysis results: []
-//Analyzer5 analysis results: [22, 703]
-//Analyzer1 analysis results: [563]
+//Analyzer1 analysis results: [22, 703]
+//Analyzer2 analysis results: [563]
+//Analyzer5 analysis results: []
 //Original file name: controllers/traversal.go
 //Original file CWE's: [22]  
 //Original file kind: fail
 //Mutation info: Insert template from templates-db/languages/go/sensitivity/field/constructors.tmt with name string_factory_negative 
 //Used extensions: 
-//Program:
+//Original file region: 28, 35, null, null
+//Mutated file region: 47, 58, null, null
+
 package controllers
 
 import (

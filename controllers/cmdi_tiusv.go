@@ -1,20 +1,22 @@
-//Analyzer5 original results: [77]
 //Analyzer1 original results: [77]
+//Analyzer2 original results: [77]
 //Analyzer3 original results: []
-//Analyzer2 original results: []
 //Analyzer4 original results: []
+//Analyzer5 original results: []
 //-------------
 //Analyzer3 analysis results: []
-//Analyzer2 analysis results: []
 //Analyzer4 analysis results: []
-//Analyzer5 analysis results: [78, 703]
-//Analyzer1 analysis results: [563]
+//Analyzer1 analysis results: [78, 703]
+//Analyzer2 analysis results: [563]
+//Analyzer5 analysis results: []
 //Original file name: controllers/cmdi.go
 //Original file CWE's: [77]  
 //Original file kind: fail
 //Mutation info: Insert template from templates-db/languages/go/sensitivity/varargs/varargs.tmt with name varargs_get_first_string_negative 
 //Used extensions: 
-//Program:
+//Original file region: 49, 56, null, null
+//Mutated file region: 67, 77, null, null
+
 package controllers
 
 import (
@@ -65,7 +67,7 @@ func (c *CommandInjectVuln2ControllerTiusv) Get() {
 func (c *CommandInjectVuln3ControllerTiusv) Get() {
 	repoUrl := c.GetString("repoUrl", "--upload-pack=${touch /tmp/pwnned}")
 
-repoUrl = getFirstString("aprOM", "dTViW")
+repoUrl = getFirstString("aprOM", repoUrl)
 
 	out, err := exec.Command("git", "ls-remote", repoUrl, "refs/heads/main").CombinedOutput()
 	if err != nil {
