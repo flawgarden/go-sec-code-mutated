@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/conditional/dowhile.tmt",
+                "template_file": "sensitivity/conditional/dowhile",
                 "template_name": "do_while_operator_negative"
             }
         ],

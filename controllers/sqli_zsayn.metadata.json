@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/conditional/conditionswitch.tmt",
+                "template_file": "sensitivity/conditional/conditionswitch",
                 "template_name": "switch_basic_positive"
             }
         ],

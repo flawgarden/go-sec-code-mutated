@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/field/nested.tmt",
+                "template_file": "sensitivity/field/nested",
                 "template_name": "nested_field_depth_4_negative"
             }
         ],

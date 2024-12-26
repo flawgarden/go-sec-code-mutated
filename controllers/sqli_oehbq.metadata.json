@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/varargs/varargs.tmt",
+                "template_file": "sensitivity/varargs/varargs",
                 "template_name": "varargs_combine_strings_negative"
             }
         ],

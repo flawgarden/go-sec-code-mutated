@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/anonstructures.tmt",
+                "template_file": "sensitivity/anonstructures",
                 "template_name": "anonymous_structure_with_nested_fields_negative"
             }
         ],

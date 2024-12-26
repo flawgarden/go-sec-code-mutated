@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/closure.tmt",
+                "template_file": "sensitivity/closure",
                 "template_name": "closure_capturing_positive"
             }
         ],

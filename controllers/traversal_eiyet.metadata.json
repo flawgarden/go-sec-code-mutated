@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/namedreturns.tmt",
+                "template_file": "sensitivity/namedreturns",
                 "template_name": "named_return_swap_simple_positive"
             }
         ],

@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/go/sensitivity/defer.tmt",
+                "template_file": "sensitivity/defer",
                 "template_name": "defer_in_func_positive"
             }
         ],
