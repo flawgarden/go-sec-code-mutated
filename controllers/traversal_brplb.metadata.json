@@ -1,0 +1,64 @@
+{
+    "original_file_metadata": {
+        "file_name": "controllers/traversal.go",
+        "CWEs": [
+            22
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 28,
+            "end_line": 35,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "templates-db/languages/go/sensitivity/closure.tmt",
+                "template_name": "closure_with_outer_variable_positive"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 28,
+            "end_line": 45,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                22
+            ],
+            "mutated_found_CWEs": [
+                22,
+                703
+            ]
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                22
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer3",
+            "original_found_CWEs": [],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer4",
+            "original_found_CWEs": [],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer5",
+            "original_found_CWEs": [],
+            "mutated_found_CWEs": []
+        }
+    ]
+}
