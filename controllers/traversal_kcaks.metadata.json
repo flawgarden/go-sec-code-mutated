@@ -25,7 +25,8 @@
             "end_line": 38,
             "start_column": null,
             "end_column": null
-        }
+        },
+        "kind": "fail"
     },
     "tool_results": [
         {

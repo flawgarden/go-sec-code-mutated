@@ -25,7 +25,8 @@
             "end_line": 56,
             "start_column": null,
             "end_column": null
-        }
+        },
+        "kind": "pass"
     },
     "tool_results": [
         {
