@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "sensitivity/types/embedding",
+                "template_file": "sensitivity/goTypes/embedding",
                 "template_name": "embedding_method_not_override_positive"
             }
         ],

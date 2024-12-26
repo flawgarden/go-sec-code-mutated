@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "sensitivity/types/assertions",
+                "template_file": "sensitivity/goTypes/assertions",
                 "template_name": "type_assertion_simple_positive"
             }
         ],

@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "sensitivity/types/duck",
+                "template_file": "sensitivity/duck/typing",
                 "template_name": "duck_typing_multiple_attributes_positive"
             }
         ],
