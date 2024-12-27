@@ -1,0 +1,32 @@
+{
+    "original_file_metadata": {
+        "file_name": "controllers/cmdi.go",
+        "CWEs": [
+            77
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 27,
+            "end_line": 36,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "sensitivity/generics/constrainedClasses",
+                "template_name": "inheritance_constrained_generic_class_positive"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 12,
+            "end_line": 27,
+            "start_column": null,
+            "end_column": null
+        },
+        "kind": "fail"
+    },
+    "tool_results": []
+}

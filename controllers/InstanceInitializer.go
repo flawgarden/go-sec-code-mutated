@@ -9,8 +9,8 @@ type InstanceInitializer struct {
 func NewInstanceInitializer(value string) *InstanceInitializer {
 	instance := &InstanceInitializer{
 		value: value,
-		list:  []string{""}, //Инициализация списка с пустой строкой
+		list:  []string{""}, // Инициализация списка с пустой строкой
 	}
-	instance.list = append(instance.list, value) //Добавляем значение в список
+	instance.list = append(instance.list, value) // Добавляем значение в список
 	return instance
 }
