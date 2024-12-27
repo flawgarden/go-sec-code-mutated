@@ -12,12 +12,9 @@ type CommandInjectVuln1Controllerjffot struct {
 
 func (c *CommandInjectVuln1Controllerjffot) Get() {
 	dir := c.GetString("dir")
-
 	func() {
 		dir = "XqBZT"
 	}()
-
-	//INSERT HERE
 	input := fmt.Sprintf("ls %s", dir)
 	cmd := exec.Command("bash", "-c", input)
 	out, err := cmd.CombinedOutput()

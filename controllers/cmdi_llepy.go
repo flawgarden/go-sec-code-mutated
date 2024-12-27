@@ -13,12 +13,9 @@ type CommandInjectVuln1Controllerllepy struct {
 
 func (c *CommandInjectVuln1Controllerllepy) Get() {
 	dir := c.GetString("dir")
-
 	tmpStr := dir
 	interpolatedStr := fmt.Sprintf("Some_prefix -> %s", strings.ToUpper(tmpStr))
 	dir = interpolatedStr
-
-	//INSERT HERE
 	input := fmt.Sprintf("ls %s", dir)
 	cmd := exec.Command("bash", "-c", input)
 	out, err := cmd.CombinedOutput()
