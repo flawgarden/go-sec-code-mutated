@@ -5,17 +5,17 @@ type NestedFieldsBase struct {
 	value  string
 }
 
-//Конструктор для NestedFieldsBase с одним значением
+// Конструктор для NestedFieldsBase с одним значением
 func NewNestedFieldsBase(value string) *NestedFieldsBase {
 	return &NestedFieldsBase{value: value}
 }
 
-//Конструктор для NestedFieldsBase с массивом значений
+// Конструктор для NestedFieldsBase с массивом значений
 func NewNestedFieldsBaseFromArray(initialValues []string) *NestedFieldsBase {
 	return &NestedFieldsBase{values: initialValues}
 }
 
-//Конструктор для NestedFieldsBase с массивом значений и дополнительным значением
+// Конструктор для NestedFieldsBase с массивом значений и дополнительным значением
 func NewNestedFieldsBaseFromArrayAndValue(initialValues []string, value string) *NestedFieldsBase {
 	return &NestedFieldsBase{values: initialValues, value: value}
 }
@@ -26,7 +26,7 @@ type NestedFields1 struct {
 	nested1 *NestedFieldsBase
 }
 
-//Конструктор для NestedFields1 с одним значением
+// Конструктор для NestedFields1 с одним значением
 func NewNestedFields1(value string) *NestedFields1 {
 	return &NestedFields1{
 		value:   value,
@@ -34,7 +34,7 @@ func NewNestedFields1(value string) *NestedFields1 {
 	}
 }
 
-//Конструктор для NestedFields1 с массивом значений
+// Конструктор для NestedFields1 с массивом значений
 func NewNestedFields1FromArray(initialValues []string) *NestedFields1 {
 	return &NestedFields1{
 		values:  initialValues,
@@ -42,7 +42,7 @@ func NewNestedFields1FromArray(initialValues []string) *NestedFields1 {
 	}
 }
 
-//Конструктор для NestedFields1 с массивом значений и дополнительным значением
+// Конструктор для NestedFields1 с массивом значений и дополнительным значением
 func NewNestedFields1FromArrayAndValue(initialValues []string, value string) *NestedFields1 {
 	return &NestedFields1{
 		values:  initialValues,
@@ -57,7 +57,7 @@ type NestedFields2 struct {
 	nested1 *NestedFields1
 }
 
-//Конструктор для NestedFields2 с одним значением
+// Конструктор для NestedFields2 с одним значением
 func NewNestedFields2(value string) *NestedFields2 {
 	return &NestedFields2{
 		value:   value,
@@ -65,7 +65,7 @@ func NewNestedFields2(value string) *NestedFields2 {
 	}
 }
 
-//Конструктор для NestedFields2 с массивом значений
+// Конструктор для NestedFields2 с массивом значений
 func NewNestedFields2FromArray(initialValues []string) *NestedFields2 {
 	return &NestedFields2{
 		values:  initialValues,
@@ -73,7 +73,7 @@ func NewNestedFields2FromArray(initialValues []string) *NestedFields2 {
 	}
 }
 
-//Конструктор для NestedFields2 с массивом значений и дополнительным значением
+// Конструктор для NestedFields2 с массивом значений и дополнительным значением
 func NewNestedFields2FromArrayAndValue(initialValues []string, value string) *NestedFields2 {
 	return &NestedFields2{
 		values:  initialValues,
@@ -88,7 +88,7 @@ type NestedFields3 struct {
 	nested1 *NestedFields2
 }
 
-//Конструктор для NestedFields3 с одним значением
+// Конструктор для NestedFields3 с одним значением
 func NewNestedFields3(value string) *NestedFields3 {
 	return &NestedFields3{
 		value:   value,
@@ -96,7 +96,7 @@ func NewNestedFields3(value string) *NestedFields3 {
 	}
 }
 
-//Конструктор для NestedFields3 с массивом значений
+// Конструктор для NestedFields3 с массивом значений
 func NewNestedFields3FromArray(initialValues []string) *NestedFields3 {
 	return &NestedFields3{
 		values:  initialValues,
@@ -104,7 +104,7 @@ func NewNestedFields3FromArray(initialValues []string) *NestedFields3 {
 	}
 }
 
-//Конструктор для NestedFields3 с массивом значений и дополнительным значением
+// Конструктор для NestedFields3 с массивом значений и дополнительным значением
 func NewNestedFields3FromArrayAndValue(initialValues []string, value string) *NestedFields3 {
 	return &NestedFields3{
 		values:  initialValues,
@@ -119,7 +119,7 @@ type NestedFields4 struct {
 	nested1 *NestedFields3
 }
 
-//Конструктор для NestedFields4 с одним значением
+// Конструктор для NestedFields4 с одним значением
 func NewNestedFields4(value string) *NestedFields4 {
 	return &NestedFields4{
 		value:   value,
@@ -127,7 +127,7 @@ func NewNestedFields4(value string) *NestedFields4 {
 	}
 }
 
-//Конструктор для NestedFields4 с массивом значений
+// Конструктор для NestedFields4 с массивом значений
 func NewNestedFields4FromArray(initialValues []string) *NestedFields4 {
 	return &NestedFields4{
 		values:  initialValues,
@@ -135,7 +135,7 @@ func NewNestedFields4FromArray(initialValues []string) *NestedFields4 {
 	}
 }
 
-//Конструктор для NestedFields4 с массивом значений и дополнительным значением
+// Конструктор для NestedFields4 с массивом значений и дополнительным значением
 func NewNestedFields4FromArrayAndValue(initialValues []string, value string) *NestedFields4 {
 	return &NestedFields4{
 		values:  initialValues,

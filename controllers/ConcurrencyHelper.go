@@ -4,12 +4,12 @@ import (
 	"sync"
 )
 
-//Wrapper equivalent in Go
+// Wrapper equivalent in Go
 type Wrapper[T any] struct {
 	Value T
 }
 
-//SettingTask equivalent in Go
+// SettingTask equivalent in Go
 type SettingTask struct {
 	w *Wrapper[string]
 	s string
@@ -23,7 +23,7 @@ func (st *SettingTask) Run() {
 	st.w.Value = st.s
 }
 
-//SwitchingTask equivalent in Go
+// SwitchingTask equivalent in Go
 type SwitchingTask struct {
 	w  *Wrapper[string]
 	s  string
@@ -44,7 +44,7 @@ func (st *SwitchingTask) Run() {
 	}
 }
 
-//NullAndRestore equivalent in Go
+// NullAndRestore equivalent in Go
 type NullAndRestore struct {
 	s        string
 	original string

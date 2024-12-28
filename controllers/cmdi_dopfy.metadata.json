@@ -1,0 +1,32 @@
+{
+    "original_file_metadata": {
+        "file_name": "controllers/cmdi.go",
+        "CWEs": [
+            77
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 27,
+            "end_line": 36,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "sensitivity/pattern-matching/instance_matching",
+                "template_name": "pattern_matching_simple_1_negative"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 12,
+            "end_line": 23,
+            "start_column": null,
+            "end_column": null
+        },
+        "kind": "pass"
+    },
+    "tool_results": []
+}

@@ -1,21 +1,3 @@
-//Analyzer3 original results: [89]
-//Analyzer1 original results: [89]
-//Analyzer2 original results: [89]
-//Analyzer4 original results: []
-//Analyzer5 original results: []
-//-------------
-//Analyzer3 analysis results: [89]
-//Analyzer4 analysis results: []
-//Analyzer1 analysis results: [89, 703]
-//Analyzer2 analysis results: []
-//Analyzer5 analysis results: []
-//Original file name: controllers/sqli.go
-//Original file CWE's: [89]  
-//Original file kind: fail
-//Mutation info: Insert template from templates-db/languages/go/sensitivity/conditional/switch.tmt with name switch_operator_any_negative 
-//Used extensions: MACRO_Any_string -> ~[VAR_string]~
-//Original file region: 76, 98, null, null
-//Mutated file region: 93, 124, null, null
 
 package controllers
 
